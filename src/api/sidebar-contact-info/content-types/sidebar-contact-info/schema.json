@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "sidebar_contact_infos",
+  "info": {
+    "singularName": "sidebar-contact-info",
+    "pluralName": "sidebar-contact-infos",
+    "displayName": "Sidebar Contact Info"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "number": {
+      "type": "string",
+      "default": "+1 (123) 456 7890",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "default": "hello@tozi.com",
+      "required": true
+    }
+  }
+}

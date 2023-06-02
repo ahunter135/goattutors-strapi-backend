@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "ads_images",
+  "info": {
+    "singularName": "ads-image",
+    "pluralName": "ads-images",
+    "displayName": "Ads Image"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

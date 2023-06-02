@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_social_links",
+  "info": {
+    "displayName": "links"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "iconName": {
+      "type": "string",
+      "default": "bx bxl-facebook",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true,
+      "default": "https://www.facebook.com/"
+    }
+  }
+}

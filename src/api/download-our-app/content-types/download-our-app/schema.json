@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "download_our_apps",
+  "info": {
+    "singularName": "download-our-app",
+    "pluralName": "download-our-apps",
+    "displayName": "Download Our App"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "androidApp": {
+      "type": "string",
+      "required": true
+    },
+    "iosApp": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_instagram_images",
+  "info": {
+    "displayName": "image"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true,
+      "default": "https://www.instagram.com/"
+    }
+  }
+}

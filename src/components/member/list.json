@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_member_lists",
+  "info": {
+    "displayName": "list"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "designation": {
+      "type": "string",
+      "required": true
+    },
+    "socialLlink": {
+      "type": "component",
+      "repeatable": true,
+      "component": "social.links",
+      "required": true
+    }
+  }
+}

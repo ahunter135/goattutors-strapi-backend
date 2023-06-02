@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "sidebar_ads_images",
+  "info": {
+    "singularName": "sidebar-ads-image",
+    "pluralName": "sidebar-ads-images",
+    "displayName": "Sidebar Ads Image",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

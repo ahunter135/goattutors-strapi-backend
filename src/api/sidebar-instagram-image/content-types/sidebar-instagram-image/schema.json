@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "sidebar_instagram_images",
+  "info": {
+    "singularName": "sidebar-instagram-image",
+    "pluralName": "sidebar-instagram-images",
+    "displayName": "Sidebar Instagram Image"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "instagramImg": {
+      "type": "component",
+      "repeatable": true,
+      "component": "instagram.image",
+      "required": true
+    }
+  }
+}
